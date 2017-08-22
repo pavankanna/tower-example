@@ -7,5 +7,10 @@
   - name: Hello World!
     shell: echo "Hi! Tower is working. Added one more comment"
     
-   -name: Hello Pavan!
+- name: Hello Pavan!
+  hosts: all
+
+  tasks:
+  
+  - name: Hello Pavan!
     shell: echo "Hi! Tower is working. Added one more comment"
